@@ -1,0 +1,25 @@
+{
+  "name": "input-integer-ui",
+  "version": "0.0.0",
+  "description": "ui component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkuhalaBarbara/input-integer-ui.git"
+  },
+  "keywords": [
+    "slider"
+  ],
+  "author": "barbara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkuhalaBarbara/input-integer-ui/issues"
+  },
+  "homepage": "https://github.com/SkuhalaBarbara/input-integer-ui#readme",
+  "devDependencies": {
+    "budo": "^11.7.0"
+  }
+}
