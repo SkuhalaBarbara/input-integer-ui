@@ -1,7 +1,10 @@
 const inputInteger = require('..')
 
-const input1 = inputInteger()
-const input2 = inputInteger()
+const opts1 = { min: 1, max: 150 }
+const opts2 = { min: 1872, max: 2022 }
+
+const input1 = inputInteger(opts1)
+const input2 = inputInteger(opts2)
 
 const title = 'My demo form'
 const subtitle = 'Please fill out the form'
