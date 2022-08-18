@@ -5,7 +5,7 @@ const theme = get_theme()
 sheet.replaceSync(theme)
 
 function inputInterger (opts) {
-    const { min, max } = opts
+    const { min = 0, max = 1000 } = opts
     const el = document.createElement('div') 
     const shadow = el.attachShadow({ mode: 'closed' }) 
 

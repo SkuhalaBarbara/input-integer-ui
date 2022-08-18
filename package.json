@@ -1,6 +1,6 @@
 {
-  "name": "input-integer-ui",
-  "version": "0.0.0",
+  "name": "input-integer-uisb",
+  "version": "0.0.4",
   "description": "ui component",
   "main": "src/index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "devDependencies": {
     "browserify": "^17.0.0",
     "budo": "^11.7.0"
+  },
+  "dependencies": {
+    "input-integer-uisb": "^0.0.3"
   }
 }
